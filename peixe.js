@@ -16,7 +16,7 @@ function preload() {
     this.load.image('mar', 'assets/bg_azul-escuro.png');
 }
 function create() {
-    this.add.image()
+    this.add.image(400, 300, 'mar');
 }
 function update() {
     
