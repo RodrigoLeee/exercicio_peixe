@@ -23,6 +23,9 @@ function preload() {
 
     //carrega o tubarao
     this.load.image('tubarao', 'assets/peixes/tubarao.png');
+
+    //carrega a concha
+    this.load.image('concha', 'assets/peixes/concha.png');
 }
 
 function create() {
@@ -37,6 +40,8 @@ function create() {
 
     //transforma a variável
     peixinho.setFlip(true,false);
+
+    this.add.image(500, 200, 'concha');
 }
 
 function update() {
