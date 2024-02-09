@@ -41,7 +41,7 @@ function create() {
     //transforma a variável
     peixinho.setFlip(true,false);
 
-    this.add.image(500, 200, 'concha');
+    this.add.image(600, 750, 'concha');
 }
 
 function update() {
